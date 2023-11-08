@@ -4,11 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
+import static org.junit.Assert.*;
 
 public class AmazonStepdefinitions {
 
@@ -31,7 +32,7 @@ public class AmazonStepdefinitions {
     public void aramaSonuclarininIcerdiginiTestEder(String arananIcerik) {
 
         String actualSonucYazisi = amazonPage.sonucYaziElementi.getText();
-        Assert.assertTrue(actualSonucYazisi.contains(arananIcerik));
+        assertTrue(actualSonucYazisi.contains(arananIcerik));
 
     }
 
@@ -58,7 +59,7 @@ public class AmazonStepdefinitions {
     @Then("urun isminde {string} oldugunu test eder")
     public void urun_isminde_oldugunu_test_eder(String istenenIcerik) {
 
-        Assert.assertTrue(amazonPage.ilkUrunIsimElementi.getText().contains(istenenIcerik));
+        assertTrue(amazonPage.ilkUrunIsimElementi.getText().contains(istenenIcerik));
     }
     @Then("kullanıcı girişi yapar")
     public void kullanıcı_girişi_yapar() {
@@ -81,14 +82,14 @@ public class AmazonStepdefinitions {
         amazonPage.amazonSepet.click();
         String expectedTitle="Shopping Cart";
         String actualTitle =Driver.getDriver().getTitle();
-        Assert.assertTrue(actualTitle.contains(expectedTitle));
+        assertTrue(actualTitle.contains(expectedTitle));
     }
     @Then("anasayfaya dönülür")
     public void anasayfaya_donulur() {
         amazonPage.amazonAnasayfa.click();
         String expectedUrl="https://www.amazon.com/ref=nav_logo";
         String actualUrl=Driver.getDriver().getCurrentUrl();
-        Assert.assertEquals(expectedUrl,actualUrl);
+        assertEquals(expectedUrl,actualUrl);
 
     }
 

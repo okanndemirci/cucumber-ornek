@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="84.708" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US1004 Amazonda listeden ilk urunun dogru oldugunu test eder" name="TC08 ilk urun ismi arattirdigimiz kelimeyi icermeli" time="84.498">
+<testsuite name="Cucumber" time="85.894" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US1004 Amazonda listeden ilk urunun dogru oldugunu test eder" name="TC08 ilk urun ismi arattirdigimiz kelimeyi icermeli" time="85.685">
 <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: (//div[@class='a-section aok-relative s-image-square-aspect'])[1]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2b654615-2ad8-4a2b-a5ad-e968ae76dce4, findElement {using=xpath, value=(//div[@class='a-section aok-relative s-image-square-aspect'])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:5254, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14868, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5254/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2b654615-2ad8-4a2b-a5ad-e968ae76dce4">
+Command: [eb90a84a-fea5-41e0-b87e-3b348ceae30f, findElement {using=xpath, value=(//div[@class='a-section aok-relative s-image-square-aspect'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:6596, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14196, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:6596/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb90a84a-fea5-41e0-b87e-3b348ceae30f">
 <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: (//div[@class='a-section aok-relative s-image-square-aspect'])[1]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2b654615-2ad8-4a2b-a5ad-e968ae76dce4, findElement {using=xpath, value=(//div[@class='a-section aok-relative s-image-square-aspect'])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:5254, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14868, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5254/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2b654615-2ad8-4a2b-a5ad-e968ae76dce4
+Command: [eb90a84a-fea5-41e0-b87e-3b348ceae30f, findElement {using=xpath, value=(//div[@class='a-section aok-relative s-image-square-aspect'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:6596, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14196, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:6596/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb90a84a-fea5-41e0-b87e-3b348ceae30f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -35,7 +35,7 @@ Session ID: 2b654615-2ad8-4a2b-a5ad-e968ae76dce4
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at stepdefinitions.AmazonStepdefinitions.ilk_urunu_tiklar(AmazonStepdefinitions.java:56)
+	at stepdefinitions.AmazonStepdefinitions.ilk_urunu_tiklar(AmazonStepdefinitions.java:57)
 	at ✽.ilk urunu tiklar(file:///C:/Users/Lenovo/Desktop/SELENIUM/yeni_cucumber/src/test/resources/amazon.feature:15)
 ]]>
 </failure>
